@@ -11,6 +11,8 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         borderColor: 'blue' ,
         borderRadius: 20,
+        marginBottom: 10,
     },
+
 });   
 export default styles;
