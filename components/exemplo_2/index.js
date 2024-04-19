@@ -9,7 +9,7 @@ import styles from './styles';
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo2</Text>
             
-           <Mensagem nome='Thiago paci' sobrenome='Paci' />
+           <Mensagem nome='Thiago' sobrenome='Paci' />
            <Mensagem nome='GABI' idade={13} />
            <Mensagem nome='Rafinha' />
 
