@@ -7,9 +7,14 @@ export default function Exemplo_3 () {
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo  3</Text>
 
-            <Pressable onPress={() => alert('Oi')} style={styles.botao}>
-                <Text>Ex
-                    Ex botão</Text>
+            <Pressable
+             onPress={() => alert('Oi')}
+              style={({ pressed }) => pressed ? 
+                   [styles.botao, styles.botaoPress]
+                   :
+                   styles.botao}
+            >
+                <Text style={styles.txtBotao}>Ex. botão</Text>
             </Pressable>
         </View>
     );

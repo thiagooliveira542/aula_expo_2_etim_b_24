@@ -15,13 +15,16 @@ const styles = StyleSheet.create({
         color: '#673AB7'
        },
        botao: {
-             borderWidth: 3,
-             padding: 10,
-             width: '80%',
-             padding: 10,
-             borderRadius: 20,
-             alignItems: 'center',
+             
+       
        },
+       txtBotao: {
+        fontSize: 25,
+        color: '#673AB7',    
+       },
+       botaoPress: {
+        backgroundColor
+       }
 });
 
 export default styles;
