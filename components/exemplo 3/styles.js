@@ -23,8 +23,13 @@ const styles = StyleSheet.create({
         color: '#673AB7',    
        },
        botaoPress: {
-        backgroundColor
-       }
+        backgroundColor: '#673AB7',
+    },
+    txtNumero: {
+        fontSize: 35,
+        color: '#673AB7',
+        marginVertical: 10,
+    },
 });
 
 export default styles;
