@@ -7,11 +7,12 @@ import Exemplo_3 from './components/exemplo 3';
 
 import Atividade1 from './components/atividade_1';
 import Atividade_2 from './components/atividade_2';
+import Atividade_3 from './components/atividade _3';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Exemplo_3 />
+      <Atividade_3_3 />
       <StatusBar style="auto" />
     </View>
   );
