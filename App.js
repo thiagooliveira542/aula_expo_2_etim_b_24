@@ -12,7 +12,7 @@ import Atividade_3 from './components/atividade _3';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade_3_3 />
+      <Atividade_3 />
       <StatusBar style="auto" />
     </View>
   );
